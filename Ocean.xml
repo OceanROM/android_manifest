@@ -22,7 +22,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="arrow" />
 
   <!-- device repos -->
-  <project path="device/arrow/sepolicy" name="android_device_arrow_sepolicy" remote="arrow" />
+  <project path="device/Ocean/sepolicy" name="android_device_Ocean_sepolicy" remote="OceanOS-github" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="arrow" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="arrow" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="arrow" />
@@ -178,7 +178,7 @@
   <project path="infrastructure/devices" name="arrow_infrastructure_devices" remote="arrow" />
 
   <!-- vendor repos -->
-  <project path="vendor/arrow" name="android_vendor_Ocean" remote="OceanOS-github" />
+  <project path="vendor/Ocean" name="android_vendor_Ocean" remote="OceanOS-github" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="arrow" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="arrow" />
